@@ -35,9 +35,6 @@ Usage
 #####
 Used in the exact same way as aiohttp, except the response object has blocked and rickroll attributes.
 """
-import asyncio
-
-import requests
 
 from . import errors
 from .client import *
