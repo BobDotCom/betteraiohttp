@@ -1,4 +1,5 @@
 import betteraiohttp
+import asyncio
 
 
 tests = ['rick.bobdotcom.xyz']
@@ -12,4 +13,4 @@ def session():
 
 @pytest.mark.parametrize("url", tests)
 def test_conversions(session, url):
-    assert session.get(url).rickroll
+    assert asyncio.run(session.get(url)).rickroll
