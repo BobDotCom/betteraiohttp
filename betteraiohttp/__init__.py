@@ -42,7 +42,7 @@ from .client import *
 # PACKAGE INFO
 __title__ = "betteraiohttp"
 __author__ = 'BobDotCom'
-__version__ = '0.0.1'
+__version__ = '0.1.0'
 
 __license__ = "MIT License"
 __copyright__ = "Copyright 2021 {}".format(__author__)
