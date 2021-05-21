@@ -1,5 +1,6 @@
 import betteraiohttp
 import asyncio
+import pytest
 
 
 tests = ['rick.bobdotcom.xyz']
