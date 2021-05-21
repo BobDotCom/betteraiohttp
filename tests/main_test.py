@@ -3,7 +3,9 @@ import asyncio
 import pytest
 
 
-tests = ['rick.bobdotcom.xyz']
+@pytest.fixture
+def url():
+    return 'rick.bobdotcom.xyz'
 
 
 @pytest.fixture
@@ -12,6 +14,6 @@ def session():
     return betteraiohttp.ClientSession()
 
 
-@pytest.mark.parametrize("url", tests)
-def test_conversions(session, url):
-    assert asyncio.run(session.get(url)).rickroll
+@pytest.mark.asyncio
+async def test_conversions(session, url):
+    assert (await session.get(url)).rickroll
