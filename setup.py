@@ -35,7 +35,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=['tests*', 'build.py']),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent"
         ],
     python_requires='>=3.6',
@@ -43,7 +43,7 @@ setuptools.setup(
             'url-parser',
             'aiohttp'
         ],
-    license='MIT',
+    license='GPL',
     project_urls={
         'Documentation': 'https://betteraiohttp.readthedocs.io/en/latest/index.html',
         'Source':        'https://github.com/BobDotCom/betteraiohttp',

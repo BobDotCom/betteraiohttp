@@ -44,5 +44,5 @@ __title__ = "betteraiohttp"
 __author__ = 'BobDotCom'
 __version__ = '0.1.0'
 
-__license__ = "MIT License"
+__license__ = " GNU General Public License v3 (GPLv3)"
 __copyright__ = "Copyright 2021 {}".format(__author__)
